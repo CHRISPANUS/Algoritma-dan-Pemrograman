@@ -1,0 +1,25 @@
+
+NAMA	: CHRISPIANUS VERMOLEN KEI KEWUAN
+JURUSAN	: TEKNIK INFORMATIKA (TIF K-16 A)
+TUGAS 	: ALGORITMA dan PEMROGRAMAN II
+NIM		: 16111180
+
+
+Penjelasan Dari progrm Yang dibuat : (file sequentialsearch.cpp)
+
+1.	indeks awal pada C++ di mulai dari 0 (nol). 
+2.	misalkan data yang  ingin dicari adalah 1, maka dari array indeks ke-0,
+	akan dicocokandengan bilangan yang di cari (1), karena tidak sama maka
+	menuju indeks selanjutnya.
+3.	pada array indeks ke-1, akan dicocokandengan bilangan yang di cari (1), 
+	karena tidak sama maka menuju indeks selanjutnya.
+4.	pada array indeks ke-2, ternyata  sama dengan bilangan yang dicari (1),
+	maka data ditemukan kemudian keluar dari looping pencarian.
+5.	saat berada pada indeks ke-2 maka kondisi if akan terpenuhi sehingga
+	semua pernyataan yang ada di dalam blok if akandijalankan.
+6.	flag akan diberi nilai 1 -> mengindikasikan data di temukan, pemberian 
+	nilai 1 akan digunakan pada kondisi untuk mencetak string data ditemukan 
+	atau tidak.
+7.	break -> digunakan untuk keluar dari suatu blok kode, disini break
+	digunakan untuk keluar dari perulangan for.
+	
